@@ -27,4 +27,5 @@ end
 def kesha_maker(array)
 collection = []
   collection << array.each{|word| "#{word[0..1]}$"}
+  collection
 end
