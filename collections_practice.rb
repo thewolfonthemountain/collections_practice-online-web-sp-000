@@ -30,3 +30,4 @@ end
 
 def find_a(array)
   array.find{|word| word[0]="a"}
+end
