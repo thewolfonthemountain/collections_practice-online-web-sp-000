@@ -25,4 +25,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each{|word| "#{word[0..1]}$#{word[3..word.length]}"
+  array.each{|word| "#{word[0..1]}$#{word[3..word.length]}"}
+  array
+end
