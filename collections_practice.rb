@@ -25,7 +25,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-collection = []
-  collection << array.each{|word| "#{word[0..1]}$"}
-  collection
+array.each{|word| $ = word[2]}
 end
