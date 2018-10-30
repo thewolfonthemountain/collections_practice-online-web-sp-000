@@ -31,3 +31,8 @@ end
 def find_a(array)
   array.select{|word| word[0]=="a"}
 end
+
+def sum_array(array)
+  i = 0
+  array.each{|integer| i = i+integer}
+  i
