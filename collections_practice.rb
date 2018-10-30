@@ -37,3 +37,6 @@ def sum_array(array)
   array.each{|integer| i = i+integer}
   i
 end
+
+def add_s(array)
+  array.each_with_index.collect{|element,index| if index != 2 then "#{element}s" else element end}
